@@ -1,0 +1,71 @@
+body {
+    color: rgb(239,235,228);
+    text-align: center;
+    background-color: rgb(48, 48, 48); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+#header {
+    display: grid;
+    grid-auto-flow:column ;
+    grid-auto-columns: 32vw;
+    color: rgb(239,235,228);
+    margin: 10px;
+}
+img {
+    width: 20%;
+    align-items: center;
+}
+#lampadas{
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    width: 30%;
+    height: 250px;
+}
+
+.butao {
+    background-color: rgb(12, 112, 242);
+    border-radius: 15px;
+
+
+    height: 30px;
+    width: 150px;
+
+    color: white;
+
+    border: 0px;
+}
+@media only screen and (max-width: 400px) 
+{
+    body{
+        border: 0px;
+        margin:0px
+    }
+    
+    .lampada {
+        display: flex;
+        
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+
+        
+        padding: 0px;
+        margin-right: 0px;
+        margin-left: -20px;
+
+    }
+    #lampadas{
+        width: 100%;
+    }
+    #dnc {
+        width: 60%;
+
+    }
+    .butao:hover{
+        background-color: aliceblue;
+        color: rgb(12, 112, 242);
+        border: 1px solid rgb(12, 112, 242);
+    }
+}
